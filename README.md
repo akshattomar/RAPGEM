@@ -15,7 +15,7 @@ The RAPGEM will work on any windows machine with .NET framework 3.5 or higher
 * Move/Copy the RPi.py file into the `site-packages` directory
 ## Using RAPGEM
 RAPGEM will show each pin's status (`direction` and `state`)<br>
-If the pin's `direction` is `GPIO.IN` then clicking on pin's row will toggle its `state`
+If the pin's `direction` is `GPIO.IN` then clicking on the state or direction cell in pin's row will toggle its `state`
 ![GPIO pin as input](./images/input.gif)
 ## API
 The RAPGEM RPi.py file has the same commands as the original RPi.py on the Raspberry Pi
