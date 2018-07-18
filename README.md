@@ -12,7 +12,7 @@ The RAPGEM will work on any windows machine with .NET framework 3.5 or higher
 	from sys import path
 	path
 	```
-* Move/Copy the RPi.py file into the `site-packages` directory
+* Move/Copy the RPi.py file into the python `lib` directory
 ## Using RAPGEM
 RAPGEM will show each pin's status (`direction` and `state`)<br>
 If the pin's `direction` is `GPIO.IN` then clicking on the state or direction cell in pin's row will toggle its `state`
