@@ -1,13 +1,13 @@
 # RAPGEM
 
-## The RAspberry Pi Gpio EMulator
+## The RAspberry Pi Gpio EMulator 
 ![RAPGEM in action](./images/rapgem.png)
 
 ## Write Raspberry Pi python code on any windows machine!
 The RAPGEM will work on any windows machine with .NET framework 3.5 or higher
 
 ## RPi.py system-wide installation:
-* Find out the python `site-packages` directory by running this in the python shell:
+* Find out the python `lib` directory (usually int the `C:\Program Files (x86)\Microsoft Visual Studio\Shared` or `C:\Users\[your user name]\AppData\Local\Python`) by running this in the python shell:
 	```python
 	from sys import path
 	path
